@@ -9198,6 +9198,7 @@
 {"text": "đao búa", "source": "tudientv"}
 {"text": "đạo cao đài", "source": "tudientv"}
 {"text": "đảo chánh", "source": "tudientv"}
+{"text": "đảo hoang", "source": "tudientv"}
 {"text": "đạo chích", "source": "tudientv"}
 {"text": "đảo chính", "source": "tudientv"}
 {"text": "đạo cơ đốc", "source": "tudientv"}
@@ -12663,7 +12664,10 @@
 {"text": "gom", "source": "tudientv"}
 {"text": "gom góp", "source": "tudientv"}
 {"text": "gom nhặt", "source": "tudientv"}
-{"text": "gom nhóp", "source": "tudientv"}
+{"text": "gom rác", "source": "tudientv"}
+{"text": "gom lúa", "source": "tudientv"}
+{"text": "gom chai", "source": "tudientv"}
+{"text": "gom lọ", "source": "tudientv"}
 {"text": "gòn", "source": "tudientv"}
 {"text": "gọn", "source": "tudientv"}
 {"text": "gon", "source": "tudientv"}
@@ -16932,6 +16936,7 @@
 {"text": "lão", "source": "tudientv"}
 {"text": "lào", "source": "tudientv"}
 {"text": "lão bộc", "source": "tudientv"}
+{"text": "lão già", "source": "tudientv"}
 {"text": "lao công", "source": "tudientv"}
 {"text": "lao dịch", "source": "tudientv"}
 {"text": "lao đao", "source": "tudientv"}
@@ -18587,6 +18592,7 @@
 {"text": "lừa", "source": "tudientv"}
 {"text": "lứa", "source": "tudientv"}
 {"text": "lửa", "source": "tudientv"}
+{"text": "lửa chùa", "source": "tudientv"}
 {"text": "lửa binh", "source": "tudientv"}
 {"text": "lừa bịp", "source": "tudientv"}
 {"text": "lửa cháy đổ thêm dầu", "source": "tudientv"}
@@ -25305,6 +25311,10 @@
 {"text": "quấy rối", "source": "tudientv"}
 {"text": "quẻ", "source": "tudientv"}
 {"text": "que", "source": "tudientv"}
+{"text": "que tăm", "source": "tudientv"}
+{"text": "que củi", "source": "tudientv"}
+{"text": "que kẹo", "source": "tudientv"}
+{"text": "que gậy", "source": "tudientv"}
 {"text": "què", "source": "tudientv"}
 {"text": "quẻ âm dương", "source": "tudientv"}
 {"text": "que đan", "source": "tudientv"}

@@ -1,0 +1,176 @@
+@font-face {
+  font-family: GIFont;
+  src: url(./fonts/ja-jp.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: GIFont;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.notification {
+  display: none;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  font-size: 3rem;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.notification.show {
+  display: block;
+  opacity: 1;
+}
+
+.notification.hide {
+  opacity: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  animation: notifyGrowth 1s ease-in-out;
+  /* visibility: hidden; */
+}
+#countdown {
+  font-size: 3rem;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+@keyframes notifyGrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.modal__overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body {
+  width: 300px;
+  height: 300px;
+  background-color: #ffff;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+  border-radius: 4px;
+}
+/* Apply the following styles to your input element */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 3rem;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+/* Add a hover effect */
+input[type="text"]:hover {
+  border-color: #888;
+}
+
+/* Add a focus effect */
+input[type="text"]:focus {
+  border-color: #00a0e9;
+  box-shadow: 0 0 5px rgba(0, 160, 233, 0.5);
+}
+#wordDisplay {
+  font-size: 3rem;
+}
+#countdown {
+  padding: 0.9rem;
+  border: 1px solid #00a0e9;
+  box-shadow: 0 0 5px rgba(220, 59, 245, 0.5);
+  border-radius: 5px;
+}
+h1 {
+  color: #00c000;
+  font-size: 5rem;
+}
+.modal_inner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.modal-time {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  animation: notifyGrowth 1s ease-in-out;
+  /* visibility: hidden; */
+}
+.modal__overlay-time {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body-time {
+  width: 300px;
+  height: 300px;
+  background-color: #ffff;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+  border-radius: 4px;
+}
+.modal_inner-time {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+button[id^="btn-"] {
+  padding: 0.9rem;
+  border: 1px solid #00a0e9;
+  box-shadow: 0 0 5px rgba(220, 59, 245, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.icon {
+  font-size: 3.4rem;
+}
