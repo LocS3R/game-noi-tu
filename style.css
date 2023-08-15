@@ -19,6 +19,13 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    128deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(227, 18, 18, 1) 0%,
+    rgba(0, 212, 255, 1) 91%
+  );
 }
 .notification {
   display: none;
@@ -111,14 +118,18 @@ input[type="text"]:focus {
   box-shadow: 0 0 5px rgba(0, 160, 233, 0.5);
 }
 #wordDisplay {
-  font-size: 3rem;
+  font-size: 5rem;
+  color: #f0f0f0;
 }
 #countdown {
   padding: 0.9rem;
   border: 1px solid #00a0e9;
   box-shadow: 0 0 5px rgba(220, 59, 245, 0.5);
   border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #757579;
 }
+
 h1 {
   color: #00c000;
   font-size: 5rem;
@@ -170,7 +181,17 @@ button[id^="btn-"] {
   box-shadow: 0 0 5px rgba(220, 59, 245, 0.5);
   border-radius: 5px;
   cursor: pointer;
+  font-size: 2rem;
 }
 .icon {
   font-size: 3.4rem;
+  color: #757579;
+}
+#toggleMusicButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#toggleMusicButton .icon {
+  color: #000;
 }
